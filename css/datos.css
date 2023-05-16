@@ -1,0 +1,23 @@
+.dato {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 80px;
+  margin-top: 4%;
+}
+
+.dato h3 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.dato p {
+  margin-left: 18%;
+  margin-right: 18%;
+}
+
+.iconos img {
+  width: 80px;
+  height: 80px;
+}
