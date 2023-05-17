@@ -1,0 +1,55 @@
+header {
+  width: 100%;
+  height: 600px;
+  background: -webkit-linear-gradient(to right, hsla(296, 61%, 19%, 0.536), hsla(0, 54%, 54%, 0.409)), url(./img/banner.jpeg);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, hsla(296, 61%, 19%, 0.536), hsla(0, 54%, 54%, 0.409)), url(./img/banner.jpeg);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+
+
+nav > a:hover {
+  text-decoration: underline;
+}
+
+header .textos-header {
+  display: flex;
+  height: 350px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.wave {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  header {
+    height: auto;
+    min-height: 400px;
+    justify-content: center;
+  }
+
+  nav {
+    flex-wrap: wrap;
+    padding: 0px;
+    justify-content: center;
+  }
+}
+

@@ -1,0 +1,54 @@
+#suscripcion {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#suscripcion h3 {
+  margin-bottom: 10px;
+}
+
+#suscripcion p {
+  margin-bottom: 20px;
+}
+
+#suscripcion form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#suscripcion label {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#suscripcion input {
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: none;
+}
+
+#suscripcion select {
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: none;
+}
+
+#suscripcion button {
+  padding: 10px 20px;
+  background-color:  #a22d8e;
+  color: #fff;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#suscripcion button:hover {
+  background-color: rgb(77, 23, 108);
+}
+
